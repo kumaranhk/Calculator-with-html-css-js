@@ -1,11 +1,14 @@
-*{
-    /* font-size: 40px; */
-    background-color: rgb(0, 0, 0);
-    color: white;
+*{ 
     margin: 0;
     padding: 0;
 }
-.calculator {
+body{
+    background-color: #18172b;
+    color: white;
+}
+.calculator {   
+    background-color: black;
+    color: white;
     width: 350px;
     margin: 100px auto;
     border: 1px solid rgb(88, 88, 88);
@@ -15,6 +18,8 @@
 
 #result {
     /* width: calc(100% - 20px); */
+    background-color: black;
+    color: white;
     font-size: 40px;
     text-align: right;
     width: 97%;
